@@ -1,0 +1,13 @@
+[package]
+name = "testproject"
+version = "0.0.0"
+
+[addresses]
+Std = "0x3"
+Demo = "0x4"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/pontem-network/diem.git"
+rev = "v1.5-pre"
+subdir = "language/move-stdlib"
+
